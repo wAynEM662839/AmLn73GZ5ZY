@@ -1,6 +1,5 @@
 ---
 version: 2
-checks:
   file-lines:
     config:
       threshold: 300
