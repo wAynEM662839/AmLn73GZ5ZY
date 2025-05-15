@@ -2,7 +2,6 @@
 #                                                       #
 # Install Microsoft Integration & Azure Stencils Pack   #
 # Author: Sandro Pereira                                #
-#                                                       #
 #########################################################
 
 [String]$location = Split-Path -Parent $PSCommandPath
