@@ -3,5 +3,4 @@ screenshot/
 tests/
 *.txt
 !/requirements.txt
-venv/
 devel/
