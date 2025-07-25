@@ -1,3 +1,72 @@
-> 1%
-last 2 versions
-not dead
+```css
+/* 优化后的CSS代码 */
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  /* 针对特定浏览器的样式 */
+}
+
+/* 针对现代浏览器的全局样式 */
+html {
+  /* 样式代码 */
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  /* 小屏幕设备样式 */
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* 中等屏幕设备样式 */
+}
+
+@media (min-width: 1025px) {
+  /* 大屏幕设备样式 */
+}
+```
+
+```javascript
+// 登录流程的伪代码
+function login(username, password) {
+  if (validateCredentials(username, password)) {
+    if (checkAdminStatus(username)) {
+      // 管理员登录逻辑
+      console.log('管理员登录成功');
+    } else {
+      // 普通用户登录逻辑
+      console.log('用户登录成功');
+    }
+  } else {
+    console.log('登录失败：用户名或密码错误');
+  }
+}
+
+function validateCredentials(username, password) {
+  // 校验用户名和密码是否符合要求
+  // 例如：非空，长度，格式等
+  return true; // 假设校验通过
+}
+
+function checkAdminStatus(username) {
+  // 校验用户是否为管理员
+  // 例如：查询数据库或调用API
+  return false; // 假设用户不是管理员
+}
+```
+
+```python
+# Python实现快速排序的伪代码
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    else:
+        pivot = arr[0]
+        less = [x for x in arr[1:] if x <= pivot]
+        greater = [x for x in arr[1:] if x > pivot]
+        return quick_sort(less) + [pivot] + quick_sort(greater)
+
+# 示例数组
+arr = [3, 6, 8, 10, 1, 2, 1]
+sorted_arr = quick_sort(arr)
+print(sorted_arr)
+```
+
+根据您的要求，我提供了优化后的CSS代码、JavaScript实现登录流程的伪代码以及Python实现快速排序的伪代码。您可以根据需要选择其中的一种。
